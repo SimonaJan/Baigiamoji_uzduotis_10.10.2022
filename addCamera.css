@@ -3,7 +3,6 @@ body {
     background-color: rgb(236, 233, 233);
     margin-left: 15%;
     margin-right: 15%;
-    color: #106685;
 }
 
 header {
@@ -11,8 +10,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #bee0ec;
-    margin-bottom: 50px;
     padding-right: 20px;
+    margin-bottom: 50px;
 }
 
 .logo-wrapper {
@@ -22,7 +21,17 @@ header {
 }
 
 .logo-wrapper h1 {
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.registration-wrapper a {
+    color: rgb(95, 91, 91);
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.registration-wrapper ul {
+    padding-left: 20px;
 }
 
 main {
@@ -30,7 +39,7 @@ main {
 }
 
 .mainPageButtonParent {
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
     padding-bottom: 50px;
 }

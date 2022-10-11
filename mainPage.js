@@ -10,14 +10,14 @@ const createCameraList = (camera) =>{
     cameraPhoto.style.backgroundImage = `url(${camera.photo})`;
     cameraPhoto.addEventListener("click", ()=>{
         localStorage.setItem("cameraId", camera.id);
-        window.location.replace("./index-description.html");
+        window.location.replace("./descriptionPage.html");
     });
 
     const infoWrapper = document.createElement("a");
     infoWrapper.classList.add("info-wrapper");
     infoWrapper.addEventListener("click", ()=>{
         localStorage.setItem("cameraId", camera.id);
-        window.location.replace("./index-description.html");
+        window.location.replace("./descriptionPage.html");
     });
 
     const addName = document.createElement("h2");

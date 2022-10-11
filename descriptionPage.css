@@ -11,8 +11,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #bee0ec;
-    margin-bottom: 50px;
     padding-right: 20px;
+    margin-bottom: 50px;
 }
 
 .logo-wrapper {
@@ -28,7 +28,11 @@ header {
 .registration-wrapper a {
     color: rgb(95, 91, 91);
     margin-right: 20px;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.registration-wrapper ul {
+    padding-left: 20px;
 }
 
 #main-wrapper {
@@ -72,7 +76,7 @@ button:hover {
 }
 
 .mainPage {
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
     margin-bottom: 50px;
 }
