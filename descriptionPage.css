@@ -40,8 +40,6 @@ header {
     background-color: white;
     gap: 20px;
     padding: 20px 20px 70px 20px;
-
-
 }
 
 #main-wrapper img {
@@ -55,7 +53,6 @@ header {
 .about-camera {
     flex: 2;
     margin-top: 20px;
-
 }
 
 button {

@@ -32,8 +32,6 @@ const createCameraList = (camera) =>{
 }
 
 
-
-
 const getAllCameras = async () => {
     allCameras = await fetch(
       "https://63443a7fdcae733e8fdab6df.mockapi.io/cameras"
