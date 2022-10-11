@@ -1,0 +1,96 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(236, 233, 233);
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #106685;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bee0ec;
+    margin-bottom: 50px;
+    padding-right: 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper h1 {
+    font-size: 30px;
+}
+
+main {
+    background-color: white;
+}
+
+.mainPageButtonParent {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mainPageButton {
+    background-color: #bee0ec;
+    padding: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    color: #106685;
+   border-radius: 5px;
+   border: none;
+   text-decoration: none;
+}
+
+:hover.mainPageButton {
+    color: #60a8c2;
+}
+
+#addForm {
+    padding: 20px;
+}
+
+.buttonWrapper {
+    text-align: center;
+}
+
+button {
+background-color: #bee0ec;
+padding: 10px;
+padding: 5px 15px 5px 15px;
+font-size: 20px;
+color: #106685;
+border-radius: 5px;
+border: none;
+box-shadow: 5px 5px 5px;
+}
+
+button:hover {
+color: #0d4153;
+font-size: 25px;
+}
+
+#addForm input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    background-color: #60a8c267;
+}
+
+textarea:focus {
+    background-color: #60a8c267;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(219, 88, 27);
+    font-weight: 500;
+}
+
+

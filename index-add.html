@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./add.css">
+    <title>Add a new camera for sale</title>
+</head>
+<body>
+    <header>
+        <div class="logo-wrapper">
+        <img src="https://editzstock.com/wp-content/uploads/2022/05/Dslr-camera-Photography-Logo-PNG-Free-Download-1-1024x1024.png" alt="website logo" width="150px" height="150px">
+        <h1>Pic Time</h1>
+        </div>
+    </header>
+    <main>
+    <form id="addForm">
+        <label for="cameraModel">Camera model name:</label><br>
+        <input type="text" name="cameraModel" id="cameraModel" required/>
+        <label for="cameraPrice">Camera price, €</label><br>
+        <input type="text" name="cameraPrice" id="cameraPrice" required/>
+        <label for="cameraPhoto">Photo of the camera</label><br>
+        <input type="text" name="cameraPhoto" id="cameraPhoto" required/>
+        <label for="cameraDescription">Description of the camera</label><br>
+        <textarea name="cameraDescription" id="cameraDescription" required></textarea>
+        <label for="city">City</label><br>
+        <input type="text" name="city" id="city" required/><br>
+        <h2 id="infoBar"></h2>
+        <div class="buttonWrapper">
+            <button id="formButton">Add!</button>
+        </div>
+    </form>
+    <div class="mainPageButtonParent"><a class="mainPageButton" href="./index.html">Back to main page</a></div>
+    </main>
+    <script src="./add.js"></script>
+</body>
+</html>

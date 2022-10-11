@@ -1,0 +1,96 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(236, 233, 233);
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #106685;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bee0ec;
+    margin-bottom: 50px;
+    padding-right: 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper h1 {
+    font-size: 30px;
+}
+
+.registration-wrapper a {
+    color: rgb(95, 91, 91);
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+#main-wrapper {
+    display: flex;
+    background-color: white;
+    gap: 20px;
+    padding: 20px 20px 70px 20px;
+
+
+}
+
+#main-wrapper img {
+    flex: 1;
+    object-fit: contain;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+}
+
+.about-camera {
+    flex: 2;
+    margin-top: 20px;
+
+}
+
+button {
+    background-color: #bee0ec;
+    padding: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    color: #106685;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 5px 5px 5px;
+   margin-top: 50px;
+}
+
+button:hover {
+   color: red;
+   font-size: 25px;
+}
+
+.mainPage {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mainPageButton {
+    background-color: #bee0ec;
+    padding: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    color: #106685;
+   border-radius: 5px;
+   border: none;
+   text-decoration: none;
+}
+
+:hover.mainPageButton {
+    color: #60a8c2;
+}
+
+
+

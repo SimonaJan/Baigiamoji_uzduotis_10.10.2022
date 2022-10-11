@@ -1,0 +1,119 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(236, 233, 233);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bee0ec;
+    padding-right: 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper h1 {
+    font-size: 40px;
+}
+
+.registration-wrapper a {
+    color: rgb(95, 91, 91);
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.registration-wrapper ul {
+    padding-left: 20px;
+}
+
+.add-new-camera {
+margin-top: 30px;
+margin-bottom: 50px;
+}
+
+.add-new-camera a {
+    text-decoration: none;
+    background-color: #bee0ec;
+    padding: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+   border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+:hover.add-new-camera a {
+    color: rgb(209, 93, 39);
+}
+
+.camera-wrapper {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 200px;
+    margin-top: 20px;
+    border: solid rgba(209, 206, 206, 0.596) 2px;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.camera-photo {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9V-wIe4oRBiqzWlsHnH_BJ1Gccbk_-eeZlcs02njjbh0uEgg-BxJ3GN_henm_UmwgWY&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+}
+
+.info-wrapper {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #106685;
+    padding-left: 10px;
+}
+
+.info-wrapper h2 {
+    font-size: 30px;
+    letter-spacing: 0.8px;
+}
+
+.info-wrapper h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+:hover.info-wrapper {
+    color: #60a8c2;
+}
+
+footer {
+    margin-top: 50px;
+    color: #106685;
+    display: flex;
+    align-items: center;
+    background-color: #bee0ec;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+
+footer ul, li, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #106685;
+    font-size: 17px;
+    padding-left: 0px;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
