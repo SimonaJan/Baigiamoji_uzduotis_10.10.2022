@@ -35,4 +35,7 @@ formButton.addEventListener("click", (e) =>{
                 window.location.reload();
               }, 3000)
         })
+        .catch((err) => {
+          console.log("error", err)
+        });
 })

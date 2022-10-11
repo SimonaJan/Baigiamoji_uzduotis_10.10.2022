@@ -38,16 +38,17 @@ const getAllCameras = async () => {
     ).then((res) => {
       return res.json();
     });
-    console.log('allCameras', allCameras);
-    
+
     allCameras.sort((a,b)=>{
         return a.price - b.price
     });
 
     allCameras.forEach((camera) => {
         createCameraList(camera);
-    });
-    
+    })
+    .catch((err) => {
+            console.log("error", err)
+          });
   };
 
   getAllCameras();
