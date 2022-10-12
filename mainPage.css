@@ -62,11 +62,10 @@ text-align: center;
     margin-top: 20px;
     border: solid rgba(209, 206, 206, 0.596) 2px;
     background-color: white;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .camera-photo {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9V-wIe4oRBiqzWlsHnH_BJ1Gccbk_-eeZlcs02njjbh0uEgg-BxJ3GN_henm_UmwgWY&usqp=CAU");
     background-size: cover;
     background-position: center;
 }
